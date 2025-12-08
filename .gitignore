@@ -1,0 +1,57 @@
+# WordPress core files (có thể ignore core nếu muốn)
+# wordpress/wp-admin/
+# wordpress/wp-includes/
+# wordpress/*.php
+# wordpress/license.txt
+# wordpress/readme.html
+
+# WordPress specific
+wordpress/wp-config.php
+wordpress/.htaccess
+
+# Uploads (không commit files upload)
+wordpress/wp-content/uploads/
+
+# Cache
+wordpress/wp-content/cache/
+wordpress/wp-content/advanced-cache.php
+wordpress/wp-content/wp-cache-config.php
+
+# Backup plugins
+wordpress/wp-content/backup/
+wordpress/wp-content/backups/
+wordpress/wp-content/backup-db/
+wordpress/wp-content/updraft/
+wordpress/wp-content/backupwordpress-*/
+
+# Upgrade
+wordpress/wp-content/upgrade/
+
+# Database
+*.sql
+*.sql.gz
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
