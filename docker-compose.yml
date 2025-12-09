@@ -23,6 +23,7 @@ services:
       dockerfile: Dockerfile
     container_name: wordpress_app
     restart: unless-stopped
+    user: "www-data"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
@@ -30,11 +31,13 @@ services:
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_TABLE_PREFIX: wp_
       WORDPRESS_DEBUG: 1
+
+      WORDPRESS_CONFIG_EXTRA: |
+        define('FS_METHOD', 'direct');
+
     volumes:
-      # Mount toàn bộ WordPress ra ngoài host
+      # Chỉ mount 1 lần toàn bộ WordPress là đủ
       - ./wordpress:/var/www/html
-      # Mount riêng wp-content để quản lý themes, plugins
-      - ./wordpress/wp-content:/var/www/html/wp-content
     depends_on:
       - db
     networks:
@@ -49,9 +52,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      # Mount WordPress files để Nginx có thể serve static files
-      - ./wordpress:/var/www/html
-      # Mount Nginx config
+      - ./wordpress:/var/www/html:ro
       - ./nginx/conf.d:/etc/nginx/conf.d
     depends_on:
       - wordpress
