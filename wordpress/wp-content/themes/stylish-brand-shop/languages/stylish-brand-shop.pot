@@ -1,0 +1,1443 @@
+# Copyright (C) 2025 Abu Turab
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stylish Brand Shop 2.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/stylish-brand-shop\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-24T12:54:42+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: stylish-brand-shop\n"
+
+#. Theme Name of the theme
+#: style.css
+#: core/block-patterns.php:13
+#: notice-getstart/alpha-getstart.php:248
+#: patterns/footer-default.php:14
+msgid "Stylish Brand Shop"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.thealphablocks.com/themes/stylish-brand-shop/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Stylish Brand Shop is a modern, multipurpose theme designed to elevate your online presence with a clean, elegant, and sophisticated layout. Perfect for fashion stores, luxury brands, creative agencies, fashion accessories, accessory shops, jewelry stores, handmade jewelry, fashion jewelry, necklaces, earrings, bracelets, rings, anklets, handbags, watches, shoes, suits, ties, cufflinks, blazers, lifestyle brands, boutique shops, clothing stores, designer accessories, online stores, apparel shops, beauty products, cosmetics stores, perfume brands, eyewear, sunglasses, scarves, hats, belts, and any stylish business, this theme combines aesthetics with high performance. Its minimal yet stunning design ensures a beautiful browsing experience across all devices, thanks to its fully responsive and retina-ready structure. Built with developers and users in mind, Stylish Brand Shop offers secure and clean code, optimized for faster page load times, SEO performance, and smooth functionality. Compatible with essential plugins like WooCommerce for online selling, Contact Form 7 for customer inquiries, Yoast SEO for improved search visibility, and Mailchimp for seamless email marketing, the theme supports easy integration and expansion. Featuring a Bootstrap framework, translation-ready support, and powerful shortcodes for added flexibility, this theme allows effortless customization to reflect your unique brand identity. Interactive animated elements, product showcase sliders, strategically placed banners, and engaging Call to Action (CTA) buttons enhance user interaction and boost conversions. The built-in testimonial section highlights customer satisfaction, while the team section adds credibility and trust. Integrated social media icons help expand your reach and maintain audience engagement. Agency-friendly, mobile-optimized, and versatile, Stylish Brand Shop empowers developers and businesses to create secure, scalable, and dynamic websites. With its modern styling, luxurious aesthetics, flexible features, and advanced customization options, Stylish Brand Shop ensures your brand stands out, promoting fashion products, accessories, lifestyle services, or boutique collections with elegance, efficiency, and a professional online presence."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Abu Turab"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.thealphablocks.com/"
+msgstr ""
+
+#: core/section-pro/customizer.php:73
+msgid "Stylish Brand Shop Pro"
+msgstr ""
+
+#: core/section-pro/customizer.php:74
+msgid "Upgrade Pro"
+msgstr ""
+
+#: core/section-pro/customizer.php:76
+msgid "Get All Our Themes"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:386
+#: core/tgm/class-tgm-plugin-activation.php:821
+#: core/tgm/class-tgm-plugin-activation.php:2527
+#: core/tgm/class-tgm-plugin-activation.php:3574
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:387
+#: core/tgm/class-tgm-plugin-activation.php:3153
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:388
+#: core/tgm/class-tgm-plugin-activation.php:2946
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: core/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:516
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:517
+msgid "Update Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:928
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:928
+#: core/tgm/class-tgm-plugin-activation.php:931
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:931
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1115
+#: core/tgm/class-tgm-plugin-activation.php:2942
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: core/tgm/class-tgm-plugin-activation.php:1976
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2267
+msgid "Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2270
+msgid "Recommended"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2286
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2289
+msgid "External Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2292
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2309
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2313
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2315
+msgid "Active"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2321
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2324
+msgid "Requires Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2327
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: core/tgm/class-tgm-plugin-activation.php:2336
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2382
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2386
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2390
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/tgm/class-tgm-plugin-activation.php:2394
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2476
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2484
+msgid "Installed version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2492
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2504
+msgid "Available version:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2527
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2541
+msgid "Plugin"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2542
+msgid "Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2543
+msgid "Type"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2547
+msgid "Version"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2548
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2597
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2602
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/tgm/class-tgm-plugin-activation.php:2608
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2678
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2711
+msgid "Install"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2717
+msgid "Update"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2720
+msgid "Activate"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2751
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2753
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2794
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2796
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2902
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2928
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3152
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3492
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: core/tgm/class-tgm-plugin-activation.php:3495
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3497
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3501
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3503
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3503
+#: core/tgm/class-tgm-plugin-activation.php:3511
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3503
+#: core/tgm/class-tgm-plugin-activation.php:3511
+msgid "Hide Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3504
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3506
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3509
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/tgm/class-tgm-plugin-activation.php:3511
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:3512
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/tgm/class-tgm-plugin-activation.php:3514
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/tgm.php:10
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:32
+msgid "https://www.themescarts.com/products/solar-wordpress-theme/"
+msgstr ""
+
+#: functions.php:33
+msgid "https://www.themescarts.com/products/stylish-brand-shop/"
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Navigation"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:185
+msgid "How do I install and activate this theme?"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:186
+msgid "You can install the theme by going to Appearance > Themes > Add New, then upload the theme ZIP file and click Install. Once installed, click Activate to start using the theme."
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:189
+msgid "Can I change the site logo and title?"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:190
+msgid "Yes, you can update the logo, site title, and tagline by going to Appearance > Editor > Site Settings > General. From there, you can upload a custom logo and edit your site information."
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:193
+msgid "Does this theme support WooCommerce?"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:194
+msgid "Yes, the theme is fully compatible with WooCommerce. Once WooCommerce is installed and activated, you can add products, create a shop page, and customize the store layout."
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:197
+msgid "How can I adjust the colors and fonts?"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:198
+msgid "You can customize colors and fonts by going to Appearance > Editor > Styles. Use the typography and color settings to match your brand style."
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:201
+msgid "Is this theme mobile responsive?"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:202
+msgid "Yes, the theme is fully responsive and optimized for mobile, tablet, and desktop devices."
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:239
+msgid "Dismiss"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:253
+msgid "Welcome, and thank you for choosing Stylish Brand Shop! We’re thrilled to have you on board. Explore the features and customization options to make your website stylish, professional, and uniquely yours."
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:262
+msgid "Theme Info Page"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:266
+#: notice-getstart/page-theme-info.php:29
+msgid "Buy Now"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:269
+#: notice-getstart/page-theme-info.php:32
+#: notice-getstart/page-theme-info.php:247
+msgid "Get All Themes"
+msgstr ""
+
+#: notice-getstart/alpha-getstart.php:272
+#: notice-getstart/page-theme-info.php:35
+msgid "Live Demo"
+msgstr ""
+
+#: notice-getstart/class-info.php:80
+msgid "Stylish Brand Shop Info"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:16
+msgid "Welcome to Stylish Brand Shop"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:20
+msgid "Stylish Brand Shop is designed to give your website a bold, elegant, and professional look—ready to launch in just a few clicks."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:38
+msgid "Documentation"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:57
+msgid "Premium Theme"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:75
+msgid "Responsive Design"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:80
+msgid "Your website adapts to all screen sizes for seamless viewing experience."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:91
+msgid "Demo Import"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:96
+msgid "Our themes has one-click demo import making it easier to launch website."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:107
+msgid ""
+"Cross Browser Compatible\n"
+"\t\t\t\t\t\t\t\t\t"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:113
+msgid "Runs smoothly across all major browsers for consistent site experience."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:124
+msgid "Easy Customization"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:129
+msgid "Quickly personalize fonts, colors, and layouts using simple customization panel."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:142
+#: patterns/footer-default.php:36
+msgid "Quick Links"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:148
+msgid "Edit Header"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:151
+msgid "Edit Footer"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:154
+msgid "Edit Sidebar"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:159
+msgid "Edit Blog Home"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:164
+msgid "All Template Parts"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:167
+msgid "Edit Frontpage"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:170
+msgid "Edit Archive Page"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:173
+msgid "All Templates"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:190
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:227
+msgid "Buy Premium Theme"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:232
+msgid "Our Premium WordPress Themes are crafted to deliver powerful design, seamless performance, and full customization options—perfect for building stunning, professional websites with ease."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:236
+msgid "Buy Now $40"
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:252
+msgid "Whether you need a website for a blog, business, portfolio, or online store, this WP Theme Bundle provides everything you need for a visually appealing and fully functional site."
+msgstr ""
+
+#: notice-getstart/page-theme-info.php:256
+msgid "Get All Block Themes $59"
+msgstr ""
+
+#: patterns/archive-header-with-background.php
+msgctxt "Pattern title"
+msgid "Archive Header With Background"
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr ""
+
+#: patterns/footer-default.php:46
+#: patterns/sidebar.php:82
+msgid "Archive"
+msgstr ""
+
+#: patterns/footer-default.php:56
+msgid "Recent Blog"
+msgstr ""
+
+#: patterns/footer-default.php:66
+msgid "Stylish Brand Shop WordPress Theme"
+msgstr ""
+
+#: patterns/footer-default.php:66
+msgid "Powered By WordPress Theme"
+msgstr ""
+
+#: patterns/front-page.php
+msgctxt "Pattern title"
+msgid "Front Page"
+msgstr ""
+
+#: patterns/front-page.php:17
+#: patterns/front-page.php:49
+#: patterns/front-page.php:81
+msgid "Welcome To Fashion Accessories"
+msgstr ""
+
+#: patterns/front-page.php:21
+#: patterns/front-page.php:53
+#: patterns/front-page.php:85
+msgid "Creating Your Own Signature Look is Easy"
+msgstr ""
+
+#: patterns/front-page.php:25
+#: patterns/front-page.php:57
+#: patterns/front-page.php:89
+msgid "Lorem Ipsum & is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: patterns/front-page.php:30
+#: patterns/front-page.php:62
+#: patterns/front-page.php:94
+#: patterns/front-page.php:402
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/front-page.php:121
+msgid "Online Support"
+msgstr ""
+
+#: patterns/front-page.php:125
+msgid "24 hours a day, 7 days a week"
+msgstr ""
+
+#: patterns/front-page.php:141
+#: patterns/front-page.php:145
+msgid "Cash On Delivery"
+msgstr ""
+
+#: patterns/front-page.php:161
+msgid "Free Shipping"
+msgstr ""
+
+#: patterns/front-page.php:165
+msgid "Free Shipping for orders $199"
+msgstr ""
+
+#: patterns/front-page.php:181
+msgid "Free Gift Warp"
+msgstr ""
+
+#: patterns/front-page.php:185
+msgid "We give a fee gift card"
+msgstr ""
+
+#: patterns/front-page.php:201
+#: patterns/front-page.php:413
+msgid "Our Product"
+msgstr ""
+
+#: patterns/front-page.php:205
+msgid "Most Selling Product"
+msgstr ""
+
+#: patterns/front-page.php:219
+#: patterns/front-page.php:263
+#: patterns/front-page.php:307
+#: patterns/front-page.php:351
+#: patterns/front-page.php:431
+#: patterns/front-page.php:475
+#: patterns/front-page.php:519
+#: patterns/front-page.php:563
+msgid "4.0"
+msgstr ""
+
+#: patterns/front-page.php:230
+#: patterns/front-page.php:274
+#: patterns/front-page.php:318
+#: patterns/front-page.php:362
+#: patterns/front-page.php:442
+#: patterns/front-page.php:486
+#: patterns/front-page.php:530
+#: patterns/front-page.php:574
+msgid "Category Name here"
+msgstr ""
+
+#: patterns/front-page.php:234
+#: patterns/front-page.php:278
+#: patterns/front-page.php:322
+#: patterns/front-page.php:366
+#: patterns/front-page.php:446
+#: patterns/front-page.php:490
+#: patterns/front-page.php:534
+#: patterns/front-page.php:578
+msgid "Product Name Here"
+msgstr ""
+
+#: patterns/front-page.php:241
+#: patterns/front-page.php:285
+#: patterns/front-page.php:329
+#: patterns/front-page.php:373
+#: patterns/front-page.php:453
+#: patterns/front-page.php:497
+#: patterns/front-page.php:541
+#: patterns/front-page.php:585
+#: patterns/header-default.php:103
+msgid "Add To Cart"
+msgstr ""
+
+#: patterns/front-page.php:246
+#: patterns/front-page.php:290
+#: patterns/front-page.php:334
+#: patterns/front-page.php:378
+#: patterns/front-page.php:458
+#: patterns/front-page.php:502
+#: patterns/front-page.php:546
+#: patterns/front-page.php:590
+msgid "$547"
+msgstr ""
+
+#: patterns/front-page.php:393
+msgid "Get 30% Discount"
+msgstr ""
+
+#: patterns/front-page.php:397
+msgid "Accessories That Make Your Life Easier"
+msgstr ""
+
+#: patterns/front-page.php:417
+msgid "Featured Product"
+msgstr ""
+
+#: patterns/header-default.php
+msgctxt "Pattern title"
+msgid "Default Header"
+msgstr ""
+
+#: patterns/header-default.php:15
+msgid "brand1235@example.com"
+msgstr ""
+
+#: patterns/header-default.php:21
+msgid "Exclusive Deal! Sign Up & Get 10% Off Your First Order!"
+msgstr ""
+
+#: patterns/header-default.php:29
+msgid "Faq"
+msgstr ""
+
+#: patterns/header-default.php:35
+msgid "Contact us"
+msgstr ""
+
+#: patterns/header-default.php:66
+msgid "Call Us"
+msgstr ""
+
+#: patterns/header-default.php:70
+msgid "+1234 456 789"
+msgstr ""
+
+#: patterns/header-default.php:86
+msgid "Wish list"
+msgstr ""
+
+#: patterns/header-default.php:90
+msgid "02 items"
+msgstr ""
+
+#: patterns/header-default.php:107
+msgid "items"
+msgstr ""
+
+#: patterns/header-default.php:161
+msgid "Login/Resister"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:14
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:18
+msgid "Theres Nothing Here"
+msgstr ""
+
+#: patterns/hidden-404.php:22
+msgid "Maybe the page you are looking for is not found or never existed."
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:22
+msgid "From Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:27
+msgid "Recent News"
+msgstr ""
+
+#: patterns/latest-news.php:33
+msgid "Explore More"
+msgstr ""
+
+#: patterns/page-title.php
+msgctxt "Pattern title"
+msgid "Page Title"
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:16
+msgid "Williams Brown"
+msgstr ""
+
+#: patterns/sidebar.php:20
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, alias aspernatur quam voluptates sint, dolore doloribus voluptas labore temporibus earum eveniet, reiciendis."
+msgstr ""
+
+#: patterns/sidebar.php:41
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/sidebar.php:64
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:102
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:120
+msgid "Social Links"
+msgstr ""
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Body Text"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Background"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Text Link"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Input Field"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Boulder"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "coffee"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Cyan"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Blue"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Sky Blue"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Green"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Lite Green"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Purple"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Purple"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Orange"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Lite Red"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Hexadecimal"
+msgstr ""
+
+#: styles/blue.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Color name"
+msgid "Pink"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Gradient name"
+msgid "Primary Gradient"
+msgstr ""
+
+#: styles/blue.json
+#: styles/cyan.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/purple.json
+#: theme.json
+msgctxt "Gradient name"
+msgid "Secondary Gradient"
+msgstr ""
+
+#: styles/cyan.json
+msgctxt "Style variation name"
+msgid "Cyan"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr ""
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr ""
+
+#: styles/purple.json
+msgctxt "Style variation name"
+msgid "Purple"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Title / Feature Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Product"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Products by Tag"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages (Full Width) Template"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages Left Sidebar Template"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Right Sidebar Template"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Products by Category"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Product Catalog"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical background to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical tertiary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal tertiary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Raleway"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "League Spartan"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Content Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Slider Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Section Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""

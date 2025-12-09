@@ -1,0 +1,137 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Green",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+					"color": "#ff6b6b",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "#63ab45",
+					"name": "Primary",
+					"slug": "primary"
+				},		
+				{
+					"color": "#ff6b6b",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#717171",
+					"name": "Body Text",
+					"slug": "body-text"
+				},
+				{
+					"color": "#ff6b6b2b",
+					"name": "Secondary Background",
+					"slug": "background-secondary"
+				},
+				{
+					"color": "#fff",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#000000",
+					"name": "Text Link",
+					"slug": "text-link"
+				},
+				{
+					"color": "#f2f2f2",
+					"name": "Border",
+					"slug": "border"
+				},
+				{
+					"color": "#000",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#1c1c1c",
+					"name": "Input Field",
+					"slug": "input-field"
+				},
+				{
+					"color": "#777",
+					"name": "Boulder",
+					"slug": "boulder"
+				},
+				{
+					"color": "#7d6043",
+					"name": "coffee",
+					"slug": "coffee"
+				},
+				{
+					"color": "#25d6a2",
+					"name": "Cyan",
+					"slug": "cyan"
+				},
+				{
+					"color": "#1b67cc",
+					"name": "Dark Blue",
+					"slug": "dark-blue"
+				},
+				{
+					"color": "#30b4da",
+					"name": "Sky Blue",
+					"slug": "sky-blue"
+				},
+				{
+					"color": "#0fb36c",
+					"name": "Dark Green",
+					"slug": "dark-green"
+				},
+				{
+					"color": "#6ba518",
+					"name": "Lite Green",
+					"slug": "lite-green"
+				},
+				{
+					"color": "#c74a73",
+					"name": "Purple",
+					"slug": "purple"
+				},
+				{
+					"color": "#9261c6",
+					"name": "Dark Purple",
+					"slug": "dark-purple"
+				},
+				{
+					"color": "#f78550",
+					"name": "Orange",
+					"slug": "orange"
+				},
+				{
+					"color": "#f9556d",
+					"name": "Lite Red",
+					"slug": "lite-red"
+				},
+				{
+					"color": "#27808c",
+					"name": "Hexadecimal",
+					"slug": "hexadecimal"
+				},
+				{
+					"color": "#ff6b98",
+					"name": "Pink",
+					"slug": "pink"
+				}
+      	],
+      	"gradients": [
+			{
+	            "gradient": "linear-gradient(135deg, #232c1f 0%, #79c35b 100%)",
+	            "name": "Primary Gradient",
+	            "slug": "primary-gradient"
+	        },{
+                "gradient": "linear-gradient(277deg, #c0efac 19%, #63ab45 100%)",
+                "name": "Secondary Gradient",
+                "slug": "secondary-gradient"
+            }
+	    ]
+    }
+  }
+}
