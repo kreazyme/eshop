@@ -13,7 +13,7 @@ services:
       - db_data:/var/lib/mysql
     networks:
       - wordpress_network
-
+      
   # WordPress with PHP-FPM
   wordpress:
     build:
@@ -21,7 +21,7 @@ services:
       dockerfile: Dockerfile
     container_name: wordpress_app
     restart: unless-stopped
-    user: "www-data"
+    # Remove this line: user: "www-data"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
@@ -29,18 +29,15 @@ services:
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_TABLE_PREFIX: wp_
       WORDPRESS_DEBUG: 1
-
       WORDPRESS_CONFIG_EXTRA: |
         define('FS_METHOD', 'direct');
-
     volumes:
-      # Chỉ mount 1 lần toàn bộ WordPress là đủ
       - ./wordpress:/var/www/html
     depends_on:
       - db
     networks:
       - wordpress_network
-
+      
   # Nginx Web Server
   nginx:
     image: nginx:alpine
