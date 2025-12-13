@@ -1,0 +1,51 @@
+name: Deploy WordPress to Server (Develop)
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      HOST: ${{ secrets.HOST }}
+      USER_NAME: ${{ secrets.USER_NAME }}
+      PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+      TARGET_DIR: /home/ubuntu/eshop
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "$PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
+
+      - name: Zip wordpress directory
+        run: |
+          if [ ! -d "wordpress" ]; then
+            echo "❌ Thư mục wordpress không tồn tại"
+            exit 1
+          fi
+          zip -r wordpress.zip wordpress
+
+      - name: Copy zip to server
+        run: |
+          scp wordpress.zip $USER_NAME@$HOST:$TARGET_DIR/wordpress.zip
+
+      - name: Extract on server
+        run: |
+          ssh $USER_NAME@$HOST << 'EOF'
+            set -e
+            cd /home/ubuntu/eshop
+            unzip -o wordpress.zip
+            rm wordpress.zip
+          EOF
+
+      - name: Cleanup local zip
+        run: rm wordpress.zip
