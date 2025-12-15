@@ -33,7 +33,6 @@ services:
         define('FS_METHOD', 'direct');
     volumes:
       - ./wordpress:/var/www/html
-      - /etc/letsencrypt:/etc/letsencrypt:ro
     depends_on:
       - db
     networks:
@@ -50,6 +49,7 @@ services:
     volumes:
       - ./wordpress:/var/www/html:ro
       - ./nginx/conf.d:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt:ro
     depends_on:
       - wordpress
     networks:
